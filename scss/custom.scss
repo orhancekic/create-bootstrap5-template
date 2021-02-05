@@ -1,0 +1,28 @@
+/* Bootstrap theming starting template */
+/* Change this colors by how do you want to customize bootstrap colors */
+$primary: #1446A0 !default;
+$secondary: #f18e29 !default;
+$success: #00AF54 !default;
+$info: #2DC7FF !default;
+$warning: #FBB13C !default;
+$danger: #DA3E52 !default;
+$light: #ECEDE8 !default;
+$dark: #12130F !default;
+$white: #fff !default;
+$theme-colors: ("primary": $primary,
+    "secondary": $secondary,
+    "success": $success,
+    "info": $info,
+    "warning": $warning,
+    "danger": $danger,
+    "light": $light,
+    "dark": $dark);
+/* Change this fonts by how do you want to customize bootstrap fonts */
+$font-family-sans-serif: 'Poppins',
+'Montserrat',
+sans-serif !default;
+$font-family-monospace: 'Montserrat',
+'Poppins',
+sans-serif !default;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
